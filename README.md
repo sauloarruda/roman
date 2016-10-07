@@ -1,0 +1,1 @@
+[![Build Status](https://semaphoreci.com/api/v1/projects/1a3b6b86-5d2b-4eda-951e-2ddc0534cc0a/1003173/badge.svg)](https://semaphoreci.com/gama/roman)
