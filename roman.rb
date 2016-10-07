@@ -1,4 +1,4 @@
-class Integer
+class Fixnum
 	NUMBERS = [ 4, 1 ]
 	LETTERS = [ 'IV', 'I' ]
 
@@ -6,7 +6,7 @@ class Integer
 		return '' if self == 0
 		roman = ''
 		NUMBERS.each_with_index do |number, index|
-			puts "[" + index.to_s + "]" + number.to_s + " => " + LETTERS[index]
+			#puts "[" + index.to_s + "]" + number.to_s + " => " + LETTERS[index]
 			break if number == 0
 			if self < number
 				roman << LETTERS[index-1] * (self)
